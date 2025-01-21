@@ -13,11 +13,11 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+# emoji = "🍥"
+subtitle = "This is just a blog for me to keep track of random guides and fixes I've found useful."
 
 [sidebar.avatar]
-enabled = true
+enabled = false
 local = true
 src = "img/avatar.png"
 
@@ -27,21 +27,21 @@ math = false
 readingTime = true
 
 [article.license]
-enabled = true
+enabled = false
 default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
 [[widgets.homepage]]
 type = "search"
 
-[[widgets.homepage]]
-type = "archives"
+# [[widgets.homepage]]
+# type = "archives"
 
-[widgets.homepage.params]
-limit = 5
+# [widgets.homepage.params]
+# limit = 5
 
-[[widgets.homepage]]
-type = "categories"
+# [[widgets.homepage]]
+# type = "categories"
 
 [widgets.homepage.params]
 limit = 10
@@ -76,7 +76,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "disqus"
 
 [comments.disqusjs]
