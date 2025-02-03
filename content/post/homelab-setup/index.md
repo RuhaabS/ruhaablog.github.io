@@ -35,6 +35,13 @@ Install Ubuntu server edition by downloading from [here](https://ubuntu.com/down
 
 Flash a USB using [Rufus](https://rufus.ie/en/) and install on machine
 
+Once initial login done, run an update & upgrade
+```bash
+sudo apt update
+```
+```bash
+sudo apt upgrade -y
+```
 ## Setup SSH
 
 Install OpenSSH server
@@ -63,5 +70,20 @@ sudo ufw status
 Should now be able to login
 ```bash
 ssh {user}@{server_ip_host}
+```
+# Setting up Kubernetes
+
+Install docker
+```bash
+sudo apt install -y docker.io
+```
+Start and Enable Docker
+```bash
+sudo systemctl enable docker
+sudo systemctl start docker
+```
+Check Status
+```bash
+sudo systemctl status docker
 ```
 
